@@ -28,40 +28,74 @@
     </style>
   </head>
   <body class="">
-    <nav></nav>
-    <header class="md:flex items-center justify-around bg-[#FFFBF0]">
-      <div>
-        <h1 class="bebas text-7xl text-[#FABE4C] w-96">
-          Be the Penguins <span class="text-[#363958]">of Winter</span>
-        </h1>
-        <p class="roboto w-[357px] text-[#3E3E3E] font-normal text-[16px] mb-2">
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry.
-        </p>
-        <button
-          class="roboto text-[#FFFFFF] text-xs font-medium items-center text-center justify-center bg-linear-to-r from-[#A4BC46] to-[#85A019] w-36 h-16 rounded-lg p-4 flex gap-2"
+    <!-- =====****** Nav & Header Section****============ -->
+    <section class="bg-[#FFFBF0] mr-[-50px] md:mr-0">
+      <!-- navbar section================ -->
+      <nav class="flex justify-between roboto mx-6 md:mx-28 pt-8 pb-7 md:pb-0">
+        <img class="w-40 md:w-[291px] h-[41px]" src="icons/logo.png" alt="" />
+        <ul
+          class="hidden md:flex gap-7 items-center font-semibold text-[16px] text-[#3C3C3C]"
         >
+          <li>Home</li>
+          <li>Product</li>
+          <li>About Us</li>
+          <li>Contact Us</li>
+        </ul>
+        <div class="md:hidden">
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            fill="white"
+            fill="none"
             viewBox="0 0 24 24"
-            strokeWidth="{1.5}"
+            stroke-width="1.5"
             stroke="currentColor"
-            className="size-6"
-            class="w-6 h-6"
+            class="size-6"
           >
             <path
-              strokeLinecap="round"
-              strokeLinejoin="round"
-              d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M3.75 6.75h16.5M3.75 12H12m-8.25 5.25h16.5"
             />
           </svg>
+        </div>
+      </nav>
+      <!-- Header section========= -->
+      <header class="md:flex items-center justify-around">
+        <div>
+          <h1 class="bebas text-6xl md:text-7xl text-[#FABE4C] w-96">
+            Be the Penguins <span class="text-[#363958]">of Winter</span>
+          </h1>
+          <p
+            class="roboto w-[357px] text-[#3E3E3E] font-normal text-[16px] mb-2"
+          >
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry.
+          </p>
+          <button
+            class="roboto text-[#FFFFFF] text-xs font-medium items-center text-center justify-center bg-linear-to-r from-[#A4BC46] to-[#85A019] w-36 h-16 rounded-lg p-4 flex gap-2"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="white"
+              viewBox="0 0 24 24"
+              strokeWidth="{1.5}"
+              stroke="currentColor"
+              className="size-6"
+              class="w-6 h-6"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 0 0-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 0 0-16.536-1.84M7.5 14.25 5.106 5.272M6 20.25a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Zm12.75 0a.75.75 0 1 1-1.5 0 .75.75 0 0 1 1.5 0Z"
+              />
+            </svg>
 
-          BUY NOW
-        </button>
-      </div>
-      <img src="images/model.png" alt="" />
-    </header>
+            BUY NOW
+          </button>
+        </div>
+        <img class="pb-32" src="images/model.png" alt="" />
+      </header>
+    </section>
+
     <main>
       <!-- **********Women Jacket Section============= -->
       <section class="py-12">
